@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Suggestion Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="respin-button" onclick="respin()">
+        <img src="respin-button-image.jpg" alt="Re-spin">
+    </button>
+    <div class="card-container">
+        <div class="movie-card" id="movie1">
+            <img src="image1.jpg" alt="Movie 1" class="movie-image" onclick="highlightImage(this)">
+            <h2>Movie Title 1</h2>
+            <p>Description...</p>
+        </div>
+        <div class="movie-card" id="movie2">
+            <img src="image2.jpg" alt="Movie 2" class="movie-image" onclick="highlightImage(this)">
+            <h2>Movie Title 2</h2>
+            <p>Description...</p>
+        </div>
+        <div class="movie-card" id="movie3">
+            <img src="image3.jpg" alt="Movie 3" class="movie-image" onclick="highlightImage(this)">
+            <h2>Movie Title 3</h2>
+            <p>Description...</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

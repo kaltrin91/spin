@@ -1,0 +1,71 @@
+body {
+    background-color: #333333;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.movie-card {
+    background-color: #555555;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center; /* Centering the content */
+}
+
+/* Existing styles... */
+
+.movie-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: opacity 0.5s, filter 0.5s; /* Smooth transition for opacity and filter */
+}
+
+.fade-out {
+    opacity: 0; /* Fade out effect */
+}
+
+.highlight {
+    filter: brightness(50%) sepia(1) hue-rotate(-50deg) saturate(5); /* Greenish highlight */
+}
+
+/* Existing styles... */
+
+#respin-button {
+    position: absolute;
+    left: 20px;
+    top: 50%; /* Center the button vertically */
+    transform: translateY(-50%); /* Adjust vertical alignment */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#respin-button img {
+    width: 50px;
+    height: auto;
+    display: block;
+}
+
+#respin-button:hover {
+    transform: translateY(-50%) scale(1.1); /* Maintain vertical centering on hover */
+}
+
+/* Continue with other styles... */
+
